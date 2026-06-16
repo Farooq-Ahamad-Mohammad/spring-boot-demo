@@ -10,12 +10,6 @@ public class SpringBootDemoApplication {
 		SpringApplication.run(SpringBootDemoApplication.class, args);
 	}
 	
-	public void run(String... args) throws Exception {
-		System.out.println("Spring Boot application started successfully!");
-	}
 	
-	public void stop() throws Exception {
-		System.out.println("Spring Boot application stopped successfully!");
-	}
 
 }
